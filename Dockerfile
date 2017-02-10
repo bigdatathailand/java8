@@ -19,3 +19,6 @@ RUN echo "===> clean up..."  && \
     rm -rf /var/cache/oracle-jdk8-installer  && \
     apt-get clean  && \
     rm -rf /var/lib/apt/lists/*
+
+ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
